@@ -1,0 +1,96 @@
+{
+  "scope": "Printed ranking arithmetic and selected saved critic values; no new minimisation or point evaluation of the critic fits",
+  "source_sha256": "c15fda68086127bdd8d333be9ecae404c0138acca2a837ceb1a5bcb789ea930e",
+  "source_description": "Frozen critic min_summary.json, 2026-10-14; CAMB 2.0.5 versus original candidate CAMB 2.0.4",
+  "printed": {
+    "PD": {
+      "delta_chi2": {
+        "CPL": -6.8,
+        "EXP": -6.9,
+        "JBP": -5.6,
+        "LOG": -6.5,
+        "BA": -8.7
+      },
+      "order": [
+        "BA",
+        "EXP",
+        "CPL",
+        "LOG",
+        "JBP"
+      ],
+      "BA_lead": 1.799999999999999
+    },
+    "PDPP": {
+      "delta_chi2": {
+        "CPL": -8.4,
+        "EXP": -7.8,
+        "JBP": -6.4,
+        "LOG": -9.3,
+        "BA": -9.4
+      },
+      "order": [
+        "BA",
+        "LOG",
+        "CPL",
+        "EXP",
+        "JBP"
+      ],
+      "BA_lead": 0.09999999999999964
+    },
+    "PDD5": {
+      "delta_chi2": {
+        "CPL": -15.2,
+        "EXP": -15.2,
+        "JBP": -16.0,
+        "LOG": -14.8,
+        "BA": -16.2
+      },
+      "order": [
+        "BA",
+        "JBP",
+        "CPL",
+        "EXP",
+        "LOG"
+      ],
+      "BA_lead": 0.1999999999999993
+    }
+  },
+  "critic_refined_points": {
+    "CPL": {
+      "chi2": 2670.7554809640064,
+      "objective_including_A_planck_prior": 2670.755481383505,
+      "parameters": {
+        "ombh2": 0.022377477863113164,
+        "omch2": 0.11993775260237055,
+        "theta100": 1.0409149758135248,
+        "tau": 0.05223736619894488,
+        "ns": 0.9656029074738736,
+        "logA": 3.038890295731383,
+        "w0": -0.7309239024901557,
+        "wa": -1.0303481084427706,
+        "A_planck": 0.999998380782073
+      },
+      "improvement_vs_original_saved_candidate": 0.14726492710997263
+    },
+    "BA": {
+      "chi2": 2670.9809198839184,
+      "objective_including_A_planck_prior": 2670.9812949297398,
+      "parameters": {
+        "ombh2": 0.022385288705346777,
+        "omch2": 0.11989043463661385,
+        "theta100": 1.0408966235818127,
+        "tau": 0.052715119909590484,
+        "ns": 0.9658419199316514,
+        "logA": 3.039796738091195,
+        "w0": -0.7707611080374889,
+        "wa": -0.5079884875077216,
+        "A_planck": 1.0000484152495
+      },
+      "improvement_vs_original_saved_candidate": 0.35802583867416615
+    }
+  },
+  "BA_minus_CPL": 0.22543891991199416,
+  "high_accuracy_BA_minus_CPL_at_same_points": 0.22014959758189434,
+  "combined_start_objective_spread_proxy": 0.34650191763876137,
+  "limitation": "Objective includes calibration prior; reported chi2 excludes it. Two-start spreads and restart drops are diagnostic, not bounds or confidence intervals. The likelihood choices differ from the paper. The global ranking is unresolved."
+}

@@ -1,0 +1,43 @@
+C1.1 Criterion (ii) (l.218, l.264): w(1) = w0 and -dw/da(1) = wa
+  pass  CPL: w(1) = w0, -dw/da(1) = wa
+  pass  EXP: w(1) = w0, -dw/da(1) = wa
+  pass  JBP: w(1) = w0, -dw/da(1) = wa
+  pass  LOG: w(1) = w0, -dw/da(1) = wa
+  pass  BA: w(1) = w0, -dw/da(1) = wa
+C1.2 Departure from CPL around a = 1: second derivative d2w/da2 at a = 1 (CPL: 0)
+        CPL: 0
+        EXP: wa
+        JBP: -2*wa
+        LOG: wa
+        BA: 4*wa
+        -> every form equals CPL to first order in (1-a); EXP 'reduces to CPL at first order' (l.271) holds, and so do the other three
+C1.3 Early-time limits a -> 0+
+        CPL: w0 + wa
+        EXP: w0 - wa + E*wa
+        JBP: w0
+        LOG: oo*wa/Abs(wa)
+        BA: w0 + wa
+        LOG: w -> -oo for wa < 0 and +oo for wa > 0 (wa*log term); footnote l.285 'the logarithmic term can grow in absolute value' holds
+C1.4 Closed-form dark-energy density: d ln f/da = -3 (1 + w)/a and ln f(1) = 0 (forms used in models.py)
+  pass  CPL: derivative residual 0, ln f(1) = 0
+  pass  EXP: derivative residual 0, ln f(1) = 0
+  pass  JBP: derivative residual 0, ln f(1) = 0
+  pass  LOG: derivative residual 0, ln f(1) = 0
+  pass  BA: derivative residual 0, ln f(1) = 0
+C1.5 Printed forms against the redshift forms of the cited originals (a = 1/(1+z))
+  pass  JBP (Jassal-Bagla-Padmanabhan, w0 + wa z/(1+z)^2): printed form minus original = 0
+  pass  BA (Barboza-Alcaniz, w0 + wa z(1+z)/(1+z^2)): printed form minus original = 0
+  pass  LOG (Efstathiou, w0 + w1 ln(1+z) with w1 = wa): printed form minus original = 0
+  pass  CPL (w0 + wa z/(1+z)): printed form minus original = 0
+C1.6 JBP mirror symmetry (Appendix A, l.700)
+  pass  w_JBP(a) - w_JBP(1-a) = 0
+  pass  redshift of the mirror point a' = 1 - a: z' = 1/zz
+        -> for every (w0, wa), w_JBP(z) = w_JBP(1/z): the posterior of w at z and at 1/z is identical, so a second pivot
+           and a second phantom crossing exist at z' = 1/z of the first ones by algebra, with the same uncertainty
+        mirror of z = 0.205: z' = 4.8780
+        mirror of z = 0.215: z' = 4.6512
+        mirror of z = 0.235: z' = 4.2553
+        mirror of z = 0.245: z' = 4.0816
+        mirror of z = 0.265: z' = 3.7736
+        mirror of z = 0.275: z' = 3.6364
+C1 pass (exact)

@@ -1,0 +1,161 @@
+{
+  "scope": "Independent arithmetic audit of frozen summaries, not a new posterior run",
+  "gate": {
+    "minimum_ess": 400,
+    "maximum_weight": 0.03
+  },
+  "passed": 7,
+  "total": 15,
+  "targets": [
+    {
+      "model": "CPL",
+      "target": "PD",
+      "ess": 447.2212458648248,
+      "maximum_weight": 0.011764326814375229,
+      "gate": true,
+      "w0_lo68": -0.6637626109731203,
+      "wa_hi68": -1.1891648443136933,
+      "reported_signs": true
+    },
+    {
+      "model": "CPL",
+      "target": "PDPP",
+      "ess": 513.4516596748152,
+      "maximum_weight": 0.010676754711243228,
+      "gate": true,
+      "w0_lo68": -0.8853535765844043,
+      "wa_hi68": -0.4701748212993069,
+      "reported_signs": true
+    },
+    {
+      "model": "CPL",
+      "target": "PDD5",
+      "ess": 575.5348958500037,
+      "maximum_weight": 0.012280709693331514,
+      "gate": true,
+      "w0_lo68": -0.7963773594708629,
+      "wa_hi68": -0.7255814556588756,
+      "reported_signs": true
+    },
+    {
+      "model": "EXP",
+      "target": "PD",
+      "ess": 358.4701628309297,
+      "maximum_weight": 0.02335099368335031,
+      "gate": false,
+      "w0_lo68": -0.7714001680377998,
+      "wa_hi68": -0.6679653256440963,
+      "reported_signs": true
+    },
+    {
+      "model": "EXP",
+      "target": "PDPP",
+      "ess": 605.1877175097777,
+      "maximum_weight": 0.006679932090398781,
+      "gate": true,
+      "w0_lo68": -0.8998700772328333,
+      "wa_hi68": -0.3414018247528312,
+      "reported_signs": true
+    },
+    {
+      "model": "EXP",
+      "target": "PDD5",
+      "ess": 617.5856917349408,
+      "maximum_weight": 0.007468946946964442,
+      "gate": true,
+      "w0_lo68": -0.8218047012707633,
+      "wa_hi68": -0.5357357489131429,
+      "reported_signs": true
+    },
+    {
+      "model": "JBP",
+      "target": "PD",
+      "ess": 403.3368558011101,
+      "maximum_weight": 0.015503271059808817,
+      "gate": true,
+      "w0_lo68": -0.9222917998018628,
+      "wa_hi68": -1.2403925868239354,
+      "reported_signs": true
+    },
+    {
+      "model": "JBP",
+      "target": "PDPP",
+      "ess": 457.79808301233544,
+      "maximum_weight": 0.008719706354694951,
+      "gate": true,
+      "w0_lo68": -0.8669047671074144,
+      "wa_hi68": -0.8337347670152564,
+      "reported_signs": true
+    },
+    {
+      "model": "JBP",
+      "target": "PDD5",
+      "ess": 347.2373647457338,
+      "maximum_weight": 0.01139720375777548,
+      "gate": false,
+      "w0_lo68": -0.6966260485952458,
+      "wa_hi68": -1.7909510395076529,
+      "reported_signs": true
+    },
+    {
+      "model": "LOG",
+      "target": "PD",
+      "ess": 143.57471594669695,
+      "maximum_weight": 0.032043118170200426,
+      "gate": false,
+      "w0_lo68": -0.8349078418065038,
+      "wa_hi68": -0.6545160866830586,
+      "reported_signs": true
+    },
+    {
+      "model": "LOG",
+      "target": "PDPP",
+      "ess": 162.5141589257704,
+      "maximum_weight": 0.022980588799032704,
+      "gate": false,
+      "w0_lo68": -0.9128972352318934,
+      "wa_hi68": -0.3009164421825008,
+      "reported_signs": true
+    },
+    {
+      "model": "LOG",
+      "target": "PDD5",
+      "ess": 134.87613329727347,
+      "maximum_weight": 0.03506440633258154,
+      "gate": false,
+      "w0_lo68": -0.8364808933581962,
+      "wa_hi68": -0.4588507341776227,
+      "reported_signs": true
+    },
+    {
+      "model": "BA",
+      "target": "PD",
+      "ess": 106.19214337595902,
+      "maximum_weight": 0.03609197243478164,
+      "gate": false,
+      "w0_lo68": -0.5985790701607097,
+      "wa_hi68": -0.7204983608153608,
+      "reported_signs": true
+    },
+    {
+      "model": "BA",
+      "target": "PDPP",
+      "ess": 161.9898878678345,
+      "maximum_weight": 0.020022874973345834,
+      "gate": false,
+      "w0_lo68": -0.9150338319248142,
+      "wa_hi68": -0.1841078189925518,
+      "reported_signs": true
+    },
+    {
+      "model": "BA",
+      "target": "PDD5",
+      "ess": 183.93198136686397,
+      "maximum_weight": 0.02033631737544283,
+      "gate": false,
+      "w0_lo68": -0.83158499054265,
+      "wa_hi68": -0.3494990576471868,
+      "reported_signs": true
+    }
+  ]
+}

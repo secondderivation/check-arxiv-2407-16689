@@ -1,0 +1,90 @@
+{
+  "schema": "sd-public-evidence-provenance/1",
+  "recalculated": false,
+  "files": [
+    {
+      "file": "evidence/saved/c1_algebra.out",
+      "origin": "Historical saved review output c1_algebra.out",
+      "source_sha256": "b11702de6cc600d674c3501b50177f8d51fcfc12263dc3759501e90e4397487b",
+      "public_sha256": "b11702de6cc600d674c3501b50177f8d51fcfc12263dc3759501e90e4397487b",
+      "transformation": "host path strings redacted; numerical records unchanged"
+    },
+    {
+      "file": "evidence/saved/c7_text.out",
+      "origin": "Historical saved review output c7_text.out",
+      "source_sha256": "9cf8e7488306ee4ccfb245cbe067207fd9d3886dd00e269de46d59ef35545d9f",
+      "public_sha256": "9cf8e7488306ee4ccfb245cbe067207fd9d3886dd00e269de46d59ef35545d9f",
+      "transformation": "host path strings redacted; numerical records unchanged"
+    },
+    {
+      "file": "evidence/saved/c7b_tail_sigma.out",
+      "origin": "Historical saved review output c7b_tail_sigma.out",
+      "source_sha256": "a17905861020de4525a5c11d2bfbd84300df2063f1fef5f4d63db0e522dde6a8",
+      "public_sha256": "a17905861020de4525a5c11d2bfbd84300df2063f1fef5f4d63db0e522dde6a8",
+      "transformation": "host path strings redacted; numerical records unchanged"
+    },
+    {
+      "file": "evidence/saved/c8_pivot.out",
+      "origin": "Historical saved review output c8_pivot.out",
+      "source_sha256": "dc4436f4ba5f136a01ff27f3b12c5810cdfaf20fed795b84a36fdbd94b462891",
+      "public_sha256": "dc4436f4ba5f136a01ff27f3b12c5810cdfaf20fed795b84a36fdbd94b462891",
+      "transformation": "host path strings redacted; numerical records unchanged"
+    },
+    {
+      "file": "evidence/saved/c9_assumptions.out",
+      "origin": "Historical saved review output c9_assumptions.out",
+      "source_sha256": "a22c0e780e54fe76f42c9a58caa85668e92143b064c166d32ad090d42d168aaf",
+      "public_sha256": "a22c0e780e54fe76f42c9a58caa85668e92143b064c166d32ad090d42d168aaf",
+      "transformation": "host path strings redacted; numerical records unchanged"
+    },
+    {
+      "file": "evidence/saved/compare.json",
+      "origin": "Historical saved review output compare.json",
+      "source_sha256": "e5aab03046970195a111643f72a07963f4725ee5e88ae1fc8478330b3c7f0630",
+      "public_sha256": "e5aab03046970195a111643f72a07963f4725ee5e88ae1fc8478330b3c7f0630",
+      "transformation": "host path strings redacted; numerical records unchanged"
+    },
+    {
+      "file": "evidence/saved/is_CPL.json",
+      "origin": "Historical saved review output is_CPL.json",
+      "source_sha256": "b14c7bb563e30121cd5d3841c65a674c5b60af6dbb9ae0e954e918d345cb13f4",
+      "public_sha256": "b14c7bb563e30121cd5d3841c65a674c5b60af6dbb9ae0e954e918d345cb13f4",
+      "transformation": "host path strings redacted; numerical records unchanged"
+    },
+    {
+      "file": "evidence/saved/is_JBP.json",
+      "origin": "Historical saved review output is_JBP.json",
+      "source_sha256": "9d9e414f6c956a9ff1d3c48a369479a8953e980867640407d09b3ed9d36ad266",
+      "public_sha256": "9d9e414f6c956a9ff1d3c48a369479a8953e980867640407d09b3ed9d36ad266",
+      "transformation": "host path strings redacted; numerical records unchanged"
+    },
+    {
+      "file": "evidence/saved/ranking_audit.json",
+      "origin": "Historical saved review output ranking_audit.json",
+      "source_sha256": "ab9586cac37dd976f5732059cefe57ba5dc591ecb318419b23350f6460e6de95",
+      "public_sha256": "ab9586cac37dd976f5732059cefe57ba5dc591ecb318419b23350f6460e6de95",
+      "transformation": "host path strings redacted; numerical records unchanged"
+    },
+    {
+      "file": "evidence/saved/sampling_audit.json",
+      "origin": "Historical saved review output sampling_audit.json",
+      "source_sha256": "f83311e97a87fd75efbb9dfc2fca2ee394f660c86831f8a97f3568260188f006",
+      "public_sha256": "f83311e97a87fd75efbb9dfc2fca2ee394f660c86831f8a97f3568260188f006",
+      "transformation": "host path strings redacted; numerical records unchanged"
+    },
+    {
+      "file": "evidence/followup/raw-audit.json",
+      "origin": "raw-audit.json",
+      "source_sha256": "c40146d48cc3a04114e2e35f2a97705881cf81bc722ae3def685bc243cec0290",
+      "public_sha256": "c40146d48cc3a04114e2e35f2a97705881cf81bc722ae3def685bc243cec0290",
+      "transformation": "host path strings redacted only"
+    },
+    {
+      "file": "evidence/followup/NUMBERS.md",
+      "origin": "NUMBERS.md",
+      "source_sha256": "97c4e4047013dd6342671d2dafe3ed69a2554cb7d1bed8d6b1af9be4f7416105",
+      "public_sha256": "97c4e4047013dd6342671d2dafe3ed69a2554cb7d1bed8d6b1af9be4f7416105",
+      "transformation": "host path strings redacted only"
+    }
+  ]
+}

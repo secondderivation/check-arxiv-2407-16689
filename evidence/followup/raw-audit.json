@@ -1,0 +1,135 @@
+{
+  "scope": "Raw diagnostic rerun; shared ArviZ library, not independent likelihood or posterior implementation",
+  "wall_cap_seconds": 60,
+  "elapsed_seconds": 12.880367999896407,
+  "numpy": "2.5.3",
+  "arviz": "0.22.0",
+  "targets": [
+    {
+      "target": "EXP_PDPP",
+      "columns": 14,
+      "matched_steps": 16384,
+      "all_saved_metrics_reproduced": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "target": "EXP_PDD5",
+      "columns": 14,
+      "matched_steps": 8192,
+      "all_saved_metrics_reproduced": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "target": "LOG_PD",
+      "columns": 14,
+      "matched_steps": 16958,
+      "all_saved_metrics_reproduced": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "target": "LOG_PDPP",
+      "columns": 14,
+      "matched_steps": 8192,
+      "all_saved_metrics_reproduced": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "target": "LOG_PDD5",
+      "columns": 14,
+      "matched_steps": 8192,
+      "all_saved_metrics_reproduced": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "target": "EXP_PD",
+      "columns": 14,
+      "matched_steps": 8192,
+      "all_saved_metrics_reproduced": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "target": "JBP_PDD5",
+      "columns": 14,
+      "matched_steps": 8192,
+      "all_saved_metrics_reproduced": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "target": "BA_PD",
+      "columns": 14,
+      "matched_steps": 8192,
+      "all_saved_metrics_reproduced": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "target": "BA_PDPP",
+      "columns": 14,
+      "matched_steps": 8192,
+      "all_saved_metrics_reproduced": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "target": "BA_PDD5",
+      "columns": 14,
+      "matched_steps": 8192,
+      "all_saved_metrics_reproduced": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "target": "FULL_EXP_PDD5",
+      "columns": 34,
+      "matched_steps": 10715,
+      "all_saved_metrics_reproduced": true,
+      "max_absolute_difference": 0
+    }
+  ],
+  "raw_sha256": {
+    "followup-2407-16689-20261015/results/EXP_PDPP/chain_0/samples.npz": "0e26997ddc5d94d5225f75f2bea060d4ae216cf26a1c1c0c4d6af9af27b6a1df",
+    "followup-2407-16689-20261015/results/EXP_PDPP/chain_1/samples.npz": "563aee467855b00f037e3e0abe5a6151a22533cfb476284489da6c529efdde72",
+    "followup-2407-16689-20261015/results/EXP_PDPP/chain_2/samples.npz": "b12e6a20957af4842054c303120ca7262433fd115d3f4bc9827024c95fd5921c",
+    "followup-2407-16689-20261015/results/EXP_PDPP/chain_3/samples.npz": "fe5f11fe2340bcffa841746ceb786ce9f085a08797ff2642f5f6f58957aeda94",
+    "followup-2407-16689-20261015/results/EXP_PDD5/chain_0/samples.npz": "e041688f6da1bf148a7f9bf15a342a44e1e91d98a7bfafba65575228cdb42730",
+    "followup-2407-16689-20261015/results/EXP_PDD5/chain_1/samples.npz": "4272317a9616eec92ffeaf9bf23cc9ff27e54444ec67ea0a37006740f9aa61f1",
+    "followup-2407-16689-20261015/results/EXP_PDD5/chain_2/samples.npz": "8bfc7c7f2b55a78fe470f6b0211a477f1792bc281090a914ed9a8010c12f6272",
+    "followup-2407-16689-20261015/results/EXP_PDD5/chain_3/samples.npz": "2e1e494cfdc72b30df34d707bc8a9d436cf49853c32e963a87cf9622423ecbc3",
+    "followup-2407-16689-20261015/results/LOG_PD/chain_0/samples.npz": "77890f53fb7ab491a36c8976fe44bad2de4db55f7d55a4067f4dcef89ac4a70a",
+    "followup-2407-16689-20261015/results/LOG_PD/chain_1/samples.npz": "0f8dab371fc86d1c6a30821784bec12759615ebe35c30321b528b3c32112247a",
+    "followup-2407-16689-20261015/results/LOG_PD/chain_2/samples.npz": "194ab1e16af940460c288ff2e0793a5999adbb14172af8ed28712396074cbcdb",
+    "followup-2407-16689-20261015/results/LOG_PD/chain_3/samples.npz": "3b048c53f65ec51e0a5b2479573b19942372999381abc4ced9b84e702e709b91",
+    "followup-2407-16689-20261015/results/LOG_PDPP/chain_0/samples.npz": "d5e4b4b7809a32e842df9a21b089660afd8f470575aad51d94ca45432d2b5ef0",
+    "followup-2407-16689-20261015/results/LOG_PDPP/chain_1/samples.npz": "1f34380f0326676d6fc41ccb2f1966526bbe0240adc6f511cad1f4b328e6648a",
+    "followup-2407-16689-20261015/results/LOG_PDPP/chain_2/samples.npz": "b99c65db92482c16c4b9211085b2e2f880cdc5cfe69a877f4804ba2b053fc0f6",
+    "followup-2407-16689-20261015/results/LOG_PDPP/chain_3/samples.npz": "3bb61caa30573b039c98d64178abea91caefeaa0686fdee781303d4307f80b93",
+    "followup-2407-16689-20261015/results/LOG_PDD5/chain_0/samples.npz": "d915febfc3278be9463fe6ca64195ded609a87c8ae820bbb06ef09bd78effab2",
+    "followup-2407-16689-20261015/results/LOG_PDD5/chain_1/samples.npz": "3e0facac831d57312ac47a34b12eb6c1ab05b49378bce1ef855f0ba879eafe81",
+    "followup-2407-16689-20261015/results/LOG_PDD5/chain_2/samples.npz": "2c0cb1b0064833a60901126083d2e5a50693a4c2146df6b8346c1928114ea7ef",
+    "followup-2407-16689-20261015/results/LOG_PDD5/chain_3/samples.npz": "9f676510accf7f1c014f9abbc0853603ed6c242d1d623813c0a112c7c241d9e7",
+    "followup-2407-16689-20261015/results/EXP_PD/chain_0/samples.npz": "e3b8e29a7209599795fdbb63544c5f1d8ea330173c3001e24763ca769f5e9f94",
+    "followup-2407-16689-20261015/results/EXP_PD/chain_1/samples.npz": "d1061fb7410c22bd7bb7ab9e2781645f0bb51591c737e27571bbff0b34174795",
+    "followup-2407-16689-20261015/results/EXP_PD/chain_2/samples.npz": "1fac18e7dfd8d231e8bee7cb7c484e32acff87662d8e4842b58f369ce5994f04",
+    "followup-2407-16689-20261015/results/EXP_PD/chain_3/samples.npz": "1b9b94f0fb300ec640aca844bab2b2cb6b49c83608598e4292b6f2a9fc887b90",
+    "followup-2407-16689-20261015/results/JBP_PDD5/chain_0/samples.npz": "67d1c4267972065ad52d40e2aa6b803368981cabdc4fcede42c76e182c5aa3f6",
+    "followup-2407-16689-20261015/results/JBP_PDD5/chain_1/samples.npz": "85aa285395822cc01c129b4ea18be67a90088cc473cd1e3ffa0d1b63ca13eafe",
+    "followup-2407-16689-20261015/results/JBP_PDD5/chain_2/samples.npz": "e3ffe540e090b873753110a1bd094ddf8fa8d977e35c6b8247f182b5ea417a9f",
+    "followup-2407-16689-20261015/results/JBP_PDD5/chain_3/samples.npz": "0ec630fb44c73b5a1df5c37483b0361dda1737cecaccac90f80d293ed7756a31",
+    "followup-2407-16689-20261015/results/BA_PD/chain_0/samples.npz": "f3d6a8dfa779cf64303de7856f73e32676dc3a5c98f1ceac0e20435d85a0a099",
+    "followup-2407-16689-20261015/results/BA_PD/chain_1/samples.npz": "99d4c0b45d1ff57ee54f94072cbd5851f9aa32ff1f49dba473d783e0625048f4",
+    "followup-2407-16689-20261015/results/BA_PD/chain_2/samples.npz": "0e40660b876a44403a115e53884906be374d55357afb874170fee91b75daee1d",
+    "followup-2407-16689-20261015/results/BA_PD/chain_3/samples.npz": "a65fcb8d823053cce9ae6e8dd474317d3b2f667eaadf27ca312986cbfba8b080",
+    "followup-2407-16689-20261015/results/BA_PDPP/chain_0/samples.npz": "c67aba7ed2cbc2523473202a33fc13148b53f3143062482f0cdad9cb2f56b18a",
+    "followup-2407-16689-20261015/results/BA_PDPP/chain_1/samples.npz": "ca236401bb8c4905fcd7d927b96f89ae70b8a408a90b6a5c14c59bb05a692498",
+    "followup-2407-16689-20261015/results/BA_PDPP/chain_2/samples.npz": "016d67d86d8e48c935110ee5a493bfe994334b5940d5b6509f1ab439b205b908",
+    "followup-2407-16689-20261015/results/BA_PDPP/chain_3/samples.npz": "2671bc65b6f3ba18d16a3ff0cb38c5c72025348ac0ab3b858a4216e3d7c0d5c4",
+    "followup-2407-16689-20261015/results/BA_PDD5/chain_0/samples.npz": "f9400a9839ab6e9e5f9b825d4a7a3c122a2382605655ebc4a9f6b8b214bf5f5a",
+    "followup-2407-16689-20261015/results/BA_PDD5/chain_1/samples.npz": "e49f9b6ef96a2258bfbfce7dfded2bfaf119d9a79aee79f2beb7adea2b9ecc51",
+    "followup-2407-16689-20261015/results/BA_PDD5/chain_2/samples.npz": "f4e9a5f877f786df7c963ecf8e425f3c190cc34be0b03a726529c3546b517531",
+    "followup-2407-16689-20261015/results/BA_PDD5/chain_3/samples.npz": "8bfcfcc4ffbfb0f0332d9026f56bb3591bcdfc3d65c8633ef29ae4a435297287",
+    "exp-desy5-continuation-12h-20261021/results/chain_0/checkpoint.npz": "030c6fb5a616a75a703ac39bb3a9a5d59f6d17d2a6b58bc5fac6232a87b7d6c7",
+    "exp-desy5-continuation-12h-20261021/results/chain_1/checkpoint.npz": "7bd4d27a6ed5996ae47433621e253108f24d2d7569796c1417230c65a0798398",
+    "exp-desy5-continuation-12h-20261021/results/chain_2/checkpoint.npz": "b41472ea0e96a83b7e8b7784569ee0c4994d0d2bfba0abdfc6a80e86aae08fff",
+    "exp-desy5-continuation-12h-20261021/results/chain_3/checkpoint.npz": "5efc97813787581f79ae3bed93cfb34bf7d90778055d0ff491bdaea2483fe6a0"
+  },
+  "lite_raw_hashes_match_frozen_manifest": true,
+  "full_raw_hashes": "measured here; metrics match imported final assessment",
+  "posterior_sampling_run": false
+}

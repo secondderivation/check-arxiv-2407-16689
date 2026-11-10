@@ -1,0 +1,49 @@
+C7.1 Sigma statements (printed mean and errors; facing side / other side)
+  ok   exp_pd_wa_sigma: EXP PD wa = -1.4 +0.75 -0.62; text 'almost 2 sigma'; facing 1.87 sigma, other side 2.26 sigma
+  ok   exp_pp_w0_sigma: EXP PP w0 = -0.876 +0.045 -0.045; text 'more than 2.5 sigma'; facing 2.76 sigma, other side 2.76 sigma
+  ok   exp_pp_wa_sigma: EXP PP wa = -0.51 +0.2 -0.17; text 'more than 2 sigma'; facing 2.55 sigma, other side 3.00 sigma
+  ok   exp_d5_wa_sigma: EXP D5 wa = -0.71 +0.23 -0.19; text '3 sigma'; facing 3.09 sigma, other side 3.74 sigma
+  ok   jbp_pp_wa_sigma: JBP PP wa = -1.5 +0.57 -0.57; text 'more than 2.6 sigma'; facing 2.63 sigma, other side 2.63 sigma
+  ok   jbp_d5_sigma (w0): JBP D5 w0 = -0.641 +0.095 -0.067; text '>~3 sigma'; facing 5.36 sigma, other side 3.78 sigma
+  ok   jbp_d5_sigma (wa): JBP D5 wa = -2.12 +0.38 -0.68; text '>~3 sigma'; facing 5.58 sigma, other side 3.12 sigma
+  ok   cpl_pp_sigma (wa, 'past phantom'): CPL PP wa = -0.77 +0.28 -0.28; text 'approximately 2.5 sigma'; facing 2.75 sigma, other side 2.75 sigma
+  ok   log_pp_w0_sigma: LOG PP w0 = -0.843 +0.055 -0.055; text 'more than 2.8 sigma'; facing 2.85 sigma, other side 2.85 sigma
+  ok   log_d5_w0_95: LOG D5 w0 = -0.763 +0.054 -0.062; text 'more than 95% CL (> 1.96) sigma'; facing 3.82 sigma, other side 4.39 sigma
+  ok   log_d5_wa_sigma: LOG D5 wa = -0.72 +0.25 -0.19; text 'almost 3 sigma'; facing 2.88 sigma, other side 3.79 sigma
+  ok   ba_pd_w0_sigma: BA PD w0 = -0.39 +0.3 -0.34; text 'approximately 2 sigma'; facing 1.79 sigma, other side 2.03 sigma
+  ok   ba_pp_wa_sigma: BA PP wa = -0.38 +0.15 -0.13; text 'more than 2 sigma'; facing 2.53 sigma, other side 2.92 sigma
+  ok   ba_d5_wa_sigma: BA D5 wa = -0.51 +0.16 -0.14; text 'more than 3 sigma'; facing 3.19 sigma, other side 3.64 sigma
+  DIFF log_pd_wa_text (table sign): LOG PD wa = -1.33 +0.79 -0.56; text 'more than 2.3 sigma'; facing 1.68 sigma, other side 2.38 sigma
+  edge cases: 'approximately 2.5 sigma' is 2.75 by the rule and 'approximately 2 sigma' is 1.79 (both inside +-0.25)
+C7.2 LOG Planck+DESI w_a in the text (l.556) vs Table (l.526-540)
+  text: wa = 1.33 +0.79 -0.56; table: wa = -1.33 +0.79 -0.56
+  sign differs: yes; errors identical: True
+  away-from-zero ratio 1.33 / 0.56 = 2.38 uses the error on the side AWAY from zero; with the table sign the facing error is 0.79: 1.68 sigma
+  -> sign typo; the quoted level is compatible with the away-from-zero ratio, but the authors' calculation method is not established; posterior-tail significance remains unresolved
+C7.3 'Error bars ... smaller / tighten by a factor of 5' (l.405 CPL, l.558 LOG, l.629 all models), Planck+DESI -> +PantheonPlus
+  CPL w0: mean 68% half-width 0.275 -> 0.064, ratio 4.3 (largest one-side ratio 5.3)
+  CPL wa: mean 68% half-width 0.735 -> 0.280, ratio 2.6 (largest one-side ratio 3.9)
+  EXP w0: mean 68% half-width 0.270 -> 0.045, ratio 6.0 (largest one-side ratio 6.0)
+  EXP wa: mean 68% half-width 0.685 -> 0.185, ratio 3.7 (largest one-side ratio 3.8)
+  JBP w0: mean 68% half-width 0.225 -> 0.086, ratio 2.6 (largest one-side ratio 3.6)
+  JBP wa: Planck+DESI has only an upper limit ({'upper95': '0.648'}); no ratio
+  LOG w0: mean 68% half-width 0.305 -> 0.055, ratio 5.5 (largest one-side ratio 6.0)
+  LOG wa: mean 68% half-width 0.675 -> 0.200, ratio 3.4 (largest one-side ratio 3.6)
+  BA w0: mean 68% half-width 0.320 -> 0.054, ratio 5.9 (largest one-side ratio 6.3)
+  BA wa: mean 68% half-width 0.490 -> 0.140, ratio 3.5 (largest one-side ratio 3.7)
+  w0: half-width ratio 2.6 (JBP) to 6.0 (EXP)
+  wa: half-width ratio 2.6 (CPL) to 3.7 (EXP)
+  -> 'up to a factor of 5' (l.405, CPL) and 'a factor of 5' for LOG w0 (l.558) hold; 'the error bars on w0 and wa tighten by a factor of 5' (l.629, all models) holds for w0 except JBP and overstates wa (2.6-3.7) (S0)
+C7.4 Delta chi^2 ranges and rankings (l.643, l.502, l.615)
+  PD: BA -8.7, EXP -6.9, CPL -6.8, LOG -6.5, JBP -5.6; range -5.6 to -8.7 (text -5.6 to -8.7); best BA (lead 1.8), smallest improvement JBP
+  PP: BA -9.4, LOG -9.3, CPL -8.4, EXP -7.8, JBP -6.4; range -6.4 to -9.4 (text -6.4 to -9.4); best BA (lead 0.1), smallest improvement JBP
+  D5: BA -16.2, JBP -16.0, CPL -15.2, EXP -15.2, LOG -14.8; range -14.8 to -16.2 (text -14.8 to -16.2); best BA (lead 0.2), smallest improvement LOG
+  'never best' CPL: ok; BA best in all three: ok (printed values; leads 1.8, 0.1, 0.2)
+  l.502 'JBP consistently ... smallest improvement ... across all datasets': smallest is {'PD': 'JBP', 'PP': 'JBP', 'D5': 'LOG'}; DIFF for DESY5 (JBP -16.0 is second best). l.643 states the exception correctly.
+  'substantially increased -- by up to a factor of ~2 -- when adopting DESY5': D5/PD, D5/PP per model: CPL 2.24/1.81, EXP 2.20/1.95, JBP 2.86/2.50, LOG 2.28/1.59, BA 1.86/1.72
+  -> the largest is JBP 2.86 (vs PD) and 2.50 (vs PP); 'up to ~2' understates the increase for JBP (S0)
+C7.5 Confidence-level wording
+  l.700 second crossing 'z = 4.2 +- 0.9 (3.6 +- 0.5) ... both at 95% CL' vs Table tab.Results.z caption '68% CL' (l.652-681): DIFF (confidence labels conflict; symmetry favours 68%, but conditional crossing intervals do not settle it alone)
+  l.469 JBP Planck+DESI 'w_a remains unbounded and an upper limit w_a < 0.648 at 95% CL': the printed result gives no 68% evidence for w_a < 0 for JBP with Planck+DESI (input to C4)
+C7.6 Every w0 / wa value quoted in the text (l.395-615) against the tables
+  29 quoted values; not found in any table: ['l.556: w_a = 1.33^{+0.79}_{-0.56}']

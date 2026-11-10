@@ -1,0 +1,19 @@
+tail-probability significance (pooled IS weights; bootstrap 200)
+sigma = Phi^-1(P) (equal to the two-sided z of p = 2(1-P)); bracket = Phi^-1(P -+ bootstrap SD); ESS < 400 is below the IS gate
+  CPL PD (ESS 447) | P(w0>-1) 0.9773 +- 0.0055: 2.00 sigma [1.91, 2.11] | P(wa<0) 0.9935 +- 0.0023: 2.49 sigma [2.38, 2.64]
+  CPL PDPP (ESS 513) | P(w0>-1) 0.9966 +- 0.0011: 2.70 sigma [2.61, 2.83] | P(wa<0) 0.9973 +- 0.0011: 2.78 sigma [2.67, 2.94]
+  CPL PDD5 (ESS 576) | P(w0>-1) 1.0000 +- 0.0000: 4.14 sigma [4.06, 4.27] | P(wa<0) 0.9999 +- 0.0000: 3.83 sigma [3.72, 4.03]
+  EXP PD (ESS 358) | P(w0>-1) 0.9785 +- 0.0061: 2.02 sigma [1.92, 2.16] | P(wa<0) 0.9967 +- 0.0010: 2.72 sigma [2.63, 2.84]
+  EXP PDPP (ESS 605) | P(w0>-1) 0.9960 +- 0.0017: 2.65 sigma [2.53, 2.83] | P(wa<0) 0.9969 +- 0.0017: 2.74 sigma [2.59, 3.00]
+  EXP PDD5 (ESS 618) | P(w0>-1) 1.0000 +- 0.0000: 4.00 sigma [3.89, 4.21] | P(wa<0) 0.9999 +- 0.0000: 3.83 sigma [3.74, 3.97]
+  JBP PD (ESS 403) | P(w0>-1) 0.8471 +- 0.0217: 1.02 sigma [0.94, 1.12] | P(wa<0) 0.9077 +- 0.0177: 1.33 sigma [1.23, 1.44]
+  JBP PDPP (ESS 458) | P(w0>-1) 0.9850 +- 0.0049: 2.17 sigma [2.06, 2.32] | P(wa<0) 0.9874 +- 0.0047: 2.24 sigma [2.11, 2.42]
+  JBP PDD5 (ESS 347) | P(w0>-1) 0.9999 +- 0.0001: 3.62 sigma [3.52, 3.79] | P(wa<0) 0.9998 +- 0.0001: 3.59 sigma [3.49, 3.74]
+  LOG PD (ESS 144) | P(w0>-1) 0.9549 +- 0.0174: 1.69 sigma [1.53, 1.92] | P(wa<0) 0.9918 +- 0.0061: 2.40 sigma [2.19, 2.87]
+  LOG PDPP (ESS 163) | P(w0>-1) 0.9963 +- 0.0023: 2.68 sigma [2.51, 2.99] | P(wa<0) 0.9997 +- 0.0002: 3.39 sigma [3.25, 3.69]
+  LOG PDD5 (ESS 135) | P(w0>-1) 1.0000 +- 0.0000: 4.22 sigma [4.12, 4.39] | P(wa<0) 1.0000 +- 0.0000: 4.31 sigma [4.23, 4.44]
+  BA PD (ESS 106) | P(w0>-1) 0.9811 +- 0.0057: 2.08 sigma [1.97, 2.22] | P(wa<0) 0.9969 +- 0.0019: 2.74 sigma [2.58, 3.05]
+  BA PDPP (ESS 162) | P(w0>-1) 0.9981 +- 0.0009: 2.89 sigma [2.77, 3.08] | P(wa<0) 0.9998 +- 0.0001: 3.60 sigma [3.49, 3.80]
+  BA PDD5 (ESS 184) | P(w0>-1) 1.0000 +- 0.0000: 4.51 sigma [4.41, 4.67] | P(wa<0) 1.0000 +- 0.0000: 4.22 sigma [4.10, 4.46]
+
+LOG PD wa (l.556 'more than 2.3 sigma'): see the LOG PD row; error ratios from the table are 1.68 (toward 0) and 2.38 (away)

@@ -1,0 +1,12 @@
+C9(a) Perturbations: the printed fluid equations (Eq. per2, l.249-251) contain (dP/drho)/(1 + w) and are singular at
+  w = -1 (and c_a^2 = w - w'/(3H(1+w)) is too); CAMB's fluid module refuses w(a) that crosses -1 (checked: 'fluid dark energy model does not
+  support w crossing -1'), and the printed posterior-mean trajectories cross; this does not mean every posterior draw crosses. The paper states neither PPF nor a patched module. We use PPF.
+C9(b) CAMB failures in our implementation, LOG early-time dark energy in the selected weight > 1e-6*max subset, early-time w > 0 (zero-weight excluded regions are not measured)
+  CPL: 9000 draws, CAMB failed at 0.178%; PD mass w(a=1e-6) > 0: 0.000; PDPP mass w(a=1e-6) > 0: 0.000; PDD5 mass w(a=1e-6) > 0: 0.000
+  EXP: 9000 draws, CAMB failed at 0.544%; PD mass w(a=1e-6) > 0: 0.000; PDPP mass w(a=1e-6) > 0: 0.000; PDD5 mass w(a=1e-6) > 0: 0.000
+  JBP: 6000 draws, CAMB failed at 1.067%; PD mass w(a=1e-6) > 0: 0.000; PDPP mass w(a=1e-6) > 0: 0.000; PDD5 mass w(a=1e-6) > 0: 0.000
+  LOG: 3000 draws, CAMB failed at 2.600%; PD mass w(a=1e-6) > 0: 0.005; PDPP mass w(a=1e-6) > 0: 0.000; PDD5 mass w(a=1e-6) > 0: 0.000
+    LOG PD: max Omega_DE(z=1100) over 1651 weighted draws = 3.41e-07; weight with Omega_DE >= 1e-3: 0.0000; posterior mass at wa > 0: 0.0082; failed draws at wa > 0: 77 of 78
+    LOG PDPP: max Omega_DE(z=1100) over 1289 weighted draws = 3.41e-07; weight with Omega_DE >= 1e-3: 0.0000; posterior mass at wa > 0: 0.0003; failed draws at wa > 0: 77 of 78
+    LOG PDD5: max Omega_DE(z=1100) over 1307 weighted draws = 3.41e-07; weight with Omega_DE >= 1e-3: 0.0000; posterior mass at wa > 0: 0.0000; failed draws at wa > 0: 77 of 78
+  BA: 3000 draws, CAMB failed at 2.467%; PD mass w(a=1e-6) > 0: 0.000; PDPP mass w(a=1e-6) > 0: 0.000; PDD5 mass w(a=1e-6) > 0: 0.000
