@@ -1,6 +1,6 @@
 # Robust Preference for Dynamical Dark Energy in DESI BAO and SN Measurements
 
-[2407.16689v2](https://arxiv.org/abs/2407.16689v2) · Review 0.1.0-rc1
+[2407.16689v2](https://arxiv.org/abs/2407.16689v2) · Review 0.1.0-rc2
 
 **Attempt documented.** The bounded review reproduced algebra and selected parameter summaries, while documenting unresolved EXP fidelity and LOG tail checks.
 
@@ -56,4 +56,4 @@ Effort (unknown): model minutes unknown, compute hours unknown, human minutes un
 
 Prepared with AI assistance. Historical Claude first pass and Codex independent review/critique remain distinct; this assembly reads saved evidence and is neither blind B nor new P2. No scientific code was run in this assembly.
 
-Tools: Claude (historical A); Codex (historical B/C and current informed assembly). Human involvement: Owner selected preparation scope; no publication decision is recorded for this batch..
+Tools: Claude (historical A); Codex (historical B/C and current informed assembly). Human involvement: Owner selected the preparation scope and approved the predecessor release published on 10 November 2026; the owner approved publication of this editorial revision on 11 November 2026.
